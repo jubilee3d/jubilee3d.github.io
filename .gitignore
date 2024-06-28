@@ -1,0 +1,9 @@
+# auto-generated folders
+build/
+
+.idea
+
+*.png
+*.xcf
+
+*.glb
