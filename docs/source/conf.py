@@ -34,6 +34,7 @@ html_css_files = ['css/custom.css']
 
 html_theme_options = {
     "navbar_center": ["navbar-nav"],
+    "header_links_before_dropdown": 6,
     "show_prev_next": False,
     "external_links":
     [
@@ -51,7 +52,7 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "**": ["sidebar-nav-bs", "sidebar-ethical-ads"]
+    "**": ["sidebar-nav-bs", "sidebar-ethical-ads"],
 }
 
 # For edit-this-page context.

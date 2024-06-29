@@ -15,14 +15,14 @@ Build Guides
    :hidden:
    :caption: Tools
 
-   build_guides/tools/baby_bullet
+   Baby Bullet <tools/baby_bullet>
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Configurations
 
-   build_guides/configurations/single_tool_3d_printing
+   hw_configurations/single_tool_3d_printing
 
 
 * Frame Assembly

@@ -6,6 +6,8 @@ Welcome to the Jubilee Project!
    :hidden:
    :titlesonly:
 
+   machines/machines
+   tools/tools
    build_guides/build_guides
    kits_by_ldo
    faqs
