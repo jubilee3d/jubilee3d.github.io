@@ -32,7 +32,6 @@ html_static_path = ['_static']
 html_css_files = ['css/custom.css']
 
 
-
 html_theme_options = {
     "navbar_center": ["navbar-nav"],
     "show_prev_next": False,
@@ -43,25 +42,23 @@ html_theme_options = {
             "name": "Source Files",
         },
     ],
-    "show_nav_level": 0, # collapse sidebar to caption.
+    "show_nav_level": 0,  # collapse sidebar to caption.
     "collapse_navigation": True,
+    "secondary_sidebar_items": [],  # Remove secondary sidebar.
+    "footer_start": ["sphinx-version"],
+    "footer_end": ["edit-this-page"],
+    "use_edit_page_button": True,  # Must be true for "edit-this-page" to work.
 }
 
-#html_sidebars = {'**': ['localtoc.html', 'sourcelink.html', 'searchbox.html']}
-#html_sidebars = {
-#   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
-#   'using/windows': ['windowssidebar.html', 'searchbox.html'],
-#}
 html_sidebars = {
     "**": ["sidebar-nav-bs", "sidebar-ethical-ads"]
 }
 
-
-
-# Sphinx Options.
-
-# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-html_show_sphinx = False
-
-# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-html_show_copyright = False
+# For edit-this-page context.
+html_context = {
+    "github_url": "https://github.com",
+    "github_user": "jubilee3d",
+    "github_repo": "jubilee3d.github.io",
+    "github_version": "develop",
+    "doc_path": "docs",
+}
