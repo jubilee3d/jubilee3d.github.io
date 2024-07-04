@@ -16,6 +16,7 @@ Build Guides
    :caption: Tools
 
    Baby Bullet <tools/baby_bullet>
+   tools/parking_post
 
 .. toctree::
    :maxdepth: 2

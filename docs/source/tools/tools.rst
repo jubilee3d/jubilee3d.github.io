@@ -3,6 +3,15 @@ Tools
 
 Jubilee has tools!
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Design Your Own Tool
+
+   Tool Design Guidelines <design_your_own_tool>
+   parking_post
+
 .. toctree::
    :maxdepth: 2
    :hidden:
