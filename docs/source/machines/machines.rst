@@ -13,5 +13,5 @@ Machines
        :padding: 0 0 2 2
        :link: jubilee3
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/1/1a/Frame_assembly_instructions.png
+       :img-bottom: pics/jubilee_v3.avif
 
