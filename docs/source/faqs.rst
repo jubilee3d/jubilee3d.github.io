@@ -4,7 +4,20 @@ FAQs
 What's new in Jubilee 3?
 ------------------------
 
-For the full breakdown, see the start of the project's changelog.
+Jubilee 3 brings a whirlwind of platform fixes and changes, including:
+
+* a stiffer frame
+* a sturdier carriage-to-tool interface
+* $500USD *cheaper* than Jubilee-2
+* `Klipper <https://www.klipper3d.org/>`_ compatibility
+* new or updated tools
+
+all while still being "self-sourceable" in single units by everyday folks without access to a fancy machine shop.
+For the full breakdown, see the start of the project's `changelog <https://github.com/jubilee3d/jubilee-3/blob/main/CHANGELOG.md#reljubilee-300>`_.
+
+Are Jubilee-2 tools compatible?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Yes, pretty-much all Jubilee-2 tools are compatible or compatible with minor changes.
 
 What can Jubilee offer in these times of modern 3D printing?
 ------------------------------------------------------------
@@ -47,3 +60,32 @@ How did Jubilee come to be?
 
 Jubilee was created by Sonya Vasquez. It is her "love letter to scientists, hackers, and engineers alike--or anyone
 who's ever been tempted to duct tape something onto the business end of their 3D printer."
+
+How can I support the project?
+------------------------------
+
+There are plenty of ways!
+
+* Participate in Discord to keep the community active and healthy. Ask questions, help others, and showcase your stuff! It's invigorating to see what others have created.
+* Share your designs and derivatives. Have a new tool design that does something totally niche? Let's feature it loud-and-proud on this website. It makes a world of difference to have other hackers and organizations legitimize the project by sharing their work.
+* Buy a kit. A portion of kit sales go back to the original Jubilee designer.
+* Sponsor this project. Share your support (via `Ko-fi <https://ko-fi.com/poofjunior>`_) to help grow the ecosystem.
+* Commission a custom tool. If you're looking to get something designed but don't have the time or resources, reach out.
+
+For the curious, here's how we like to measure success.
+
+* Communicty Growth and Activity
+    * Discord community activity and growth
+    * Vetting and discussion from external groups
+* Use in Research
+    * Jubilee's demonstrated ability to enable novel research
+    * Publications. You can cite the Jubilee project with: https://dl.acm.org/doi/10.1145/3313831.3376425
+* Use in Industry
+    * Jubilee's demonstrated ability enable research or manufacturing at scale.
+* Jubilee derivatives
+    * projects that take inspiration from Jubilee or use Jubilee as a reference design.
+* Jubilees in the world
+* Extensions to the Jubilee ecosystem
+    * new tools
+    * new bed plates
+    * new machine workflows

@@ -46,12 +46,13 @@ html_theme_options = {
     "show_nav_level": 0,  # collapse sidebar to caption.
     "collapse_navigation": True,
     "secondary_sidebar_items": [],  # Remove secondary sidebar.
-    "footer_start": ["sphinx-version"],
+    "footer_start": ["copyright"], # "sphinx-version"],
     "footer_end": ["edit-this-page"],
     "use_edit_page_button": True,  # Must be true for "edit-this-page" to work.
 }
 
 html_sidebars = {
+    "machines/machines": [],
     "**": ["sidebar-nav-bs", "sidebar-ethical-ads"],
 }
 

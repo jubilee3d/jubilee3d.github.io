@@ -19,6 +19,14 @@ Jubilee has tools!
 
    baby_bullet
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Plotting and Engraving
+
+   flyline_pen
+   passive_pen
+
 3D Printing
 -----------
 
@@ -36,15 +44,17 @@ Jubilee has tools!
        :link-type: any
        :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
+
 Inspection
 --------------
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Inspection tools
+   :caption: Inspection and Imaging
 
-   inspection_tool
+   rpi_camera
+   xyz_probe
 
 .. grid:: 3
 
@@ -66,6 +76,8 @@ Lab Automation
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Lab automation tools
+   :caption: Lab automation
 
    syringe_tool
+   sonicator
+
