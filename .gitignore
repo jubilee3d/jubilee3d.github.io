@@ -5,3 +5,5 @@ build/
 
 *.png
 *.xcf
+
+*.glb
