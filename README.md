@@ -28,9 +28,9 @@ This will create another folder called *build* where the generated html files wi
 The generated html files in the *build* folder can be opened as-is, but javascript commands will not be executed.
 To read the docs in their final form, you can launch a local server to host them.
 
-To view the docs locally, from this folder run:
+To view the docs locally, from the top folder run:
 ````bash
-sphinx-autobuild docs docs/build/html
+sphinx-autobuild docs/source build/html
 ````
 
 ### Deploying the docs online

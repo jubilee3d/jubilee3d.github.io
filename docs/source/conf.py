@@ -52,9 +52,14 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "machines/machines": [],
+    "machines/machines": [],  # No sidebar for this page
+#    "machines/jubilee_3/jubilee3": ['page-toc'],
+#    "faqs": ['page-toc'],  # No sidebar for this page
+    "machines/jubilee_3/jubilee3": ['sidebar-nav-bs'],
     "**": ["sidebar-nav-bs", "sidebar-ethical-ads"],
 }
+
+print(html_sidebars["machines/jubilee_3/jubilee3"])
 
 # For edit-this-page context.
 html_context = {
