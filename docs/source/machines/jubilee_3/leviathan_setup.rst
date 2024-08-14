@@ -1,6 +1,11 @@
 Leviathan Setup
 ===============
 
+.. figure:: pics/leviathan.avif
+   :width: 640
+   :class: dark-light
+   :align: center
+
 The LDO `Leviathan <https://github.com/MotorDynamicsLab/Leviathan>`_ is an open source motion control board used as a low level interface to the machine's motors and sensors.
 We will (1) install a bootloader and (2) configure and flash firmware that's specific to our setup.
 
@@ -14,3 +19,8 @@ There are multiple configurations to setup the board.
 The preferred setup is:
 
 * UART interface
+
+
+References
+----------
+* [Leviathan Project Repository](https://github.com/MotorDynamicsLab/Leviathan) and source image credit.

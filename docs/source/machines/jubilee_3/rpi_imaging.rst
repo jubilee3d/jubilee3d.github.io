@@ -11,7 +11,7 @@ Don't worry, though. We will ultimately still be able to control the machine thr
 You will need
 -------------
 
-* a Micro-SD card
+* a MicroSD card
 * an SD card-to-USB adapter (if you cannot)
 * a PC or laptop
 
@@ -19,10 +19,36 @@ You will need
 Instructions
 ------------
 
-Download RPi Imager.
+Plug the MicroSD card into your PC.
 
+Download, install, and launch `RPi Imager <https://www.raspberrypi.com/software/>`_.
 
+From the *Choose OS* option, select *Raspberry Pi OS (Other)*, and select *Raspberry Pi OS Lite (64bit)*.
 
-Network Setup
--------------
+.. grid:: 2
 
+   .. grid-item::
+      :padding: 0 0 1 1
+
+      .. figure:: pics/rpi_imaging/rpi_imager.avif
+         :width: 600
+         :class: dark-light
+         :align: center
+
+   .. grid-item::
+      :padding: 0 0 1 1
+
+      .. figure:: pics/rpi_imaging/rpi_os_lite_64.avif
+         :width: 600
+         :class: dark-light
+         :align: center
+
+In the *Choose Storage* option, select your SD card; then select *Next*.
+
+Decide on a name for your machine that will be unique to the network you install it on.
+Your machine will appear on your network as :code: `<machine_name>.local`.
+If your are planning to connect to this machine over Wi-Fi, enter the network name and password now.
+(Double-check this!)
+
+In the next pane check *Enable SSH*.
+This will be the primary way we connect to Jubilee and install packages before installing supplementary GUIs.

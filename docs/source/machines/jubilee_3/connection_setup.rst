@@ -7,7 +7,8 @@ Wired Setup
 Windows
 ~~~~~~~
 
-Bonjour!
+Install `Bonjour Print Services for Windows <https://support.apple.com/en-us/106380>`_.
+Bonjour, aka *Zeroconf*, dramatically simplifies the way the machine will appear on your PC when both are connected to the same network.
 
 To share the host PC's internet with the Rasbperry Pi,
 
@@ -23,7 +24,7 @@ Under *Settings → Network*, click on option that appears under *USB Ethernet*.
    .. grid-item::
       :padding: 0 0 1 1
 
-      .. figure:: pics/linux_wired_setup_dhcp1.png
+      .. figure:: pics/linux_wired_setup_dhcp1.avif
          :width: 600
          :class: dark-light
          :align: center
@@ -31,7 +32,7 @@ Under *Settings → Network*, click on option that appears under *USB Ethernet*.
    .. grid-item::
       :padding: 0 0 1 1
 
-      .. figure:: pics/linux_wired_setup_dhcp2.png
+      .. figure:: pics/linux_wired_setup_dhcp2.avif
          :width: 600
          :class: dark-light
          :align: center
