@@ -19,6 +19,7 @@ extensions = [
     "sphinx.ext.napoleon",  # enable numpy and google style docstring parsing.
     "sphinx.ext.autodoc",  # enable doc generation from code docstrings.
     "sphinx_design",
+    "sphinxcontrib.pdfembed", # from https://github.com/SuperKogito/sphinxcontrib-pdfembed
 ]
 
 templates_path = ['_templates']

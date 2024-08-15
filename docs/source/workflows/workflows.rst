@@ -12,6 +12,7 @@ A *workflow* involves one or more specific tools, bed plates, and software to en
    :caption: 3D Printing
 
    Mono-Tool 3D printing <mono_3d_printing>
+..
    Multi-Tool 3D printing <multitool_3d_printing>
 
 3D Printing
@@ -36,6 +37,7 @@ A *workflow* involves one or more specific tools, bed plates, and software to en
    :hidden:
    :caption: Plotting and Engraving
 
+..
    2d Plotting
 
 

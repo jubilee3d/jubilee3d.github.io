@@ -6,7 +6,7 @@ Installing Klipper
 Instructions
 ------------
 
-
+Login to the Pi via SSH.
 
 Install the base `Jubilee Klipper configuration <https://github.com/jubilee3d/jubilee3-klipper-config>`_ to a folder in the home directory called :code:`klipper_config` with:
 

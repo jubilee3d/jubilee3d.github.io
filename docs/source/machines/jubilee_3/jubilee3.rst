@@ -42,7 +42,8 @@ Acquire Parts
 
 Assembly Instructions
 =====================
-* Step-by-Step :doc:`build guide </build_guides/motion_platform/jubilee_3/frame_assembly>`
+..
+  * Step-by-Step :doc:`assembly <>`
 
 
 References

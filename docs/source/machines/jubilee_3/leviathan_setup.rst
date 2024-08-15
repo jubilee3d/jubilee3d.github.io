@@ -6,6 +6,7 @@ Leviathan Setup
    :class: dark-light
    :align: center
 
+
 The LDO `Leviathan <https://github.com/MotorDynamicsLab/Leviathan>`_ is an open source motion control board used as a low level interface to the machine's motors and sensors.
 We will (1) install a bootloader and (2) configure and flash firmware that's specific to our setup.
 
