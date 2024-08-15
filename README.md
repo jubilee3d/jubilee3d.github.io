@@ -30,7 +30,7 @@ To read the docs in their final form, you can launch a local server to host them
 
 To view the docs locally, from the top folder run:
 ````bash
-sphinx-autobuild source build/html
+sphinx-autobuild docs build/html
 ````
 
 ### Deploying the docs online
