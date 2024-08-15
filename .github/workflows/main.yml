@@ -5,6 +5,8 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
+      - name: Change ownership of /github/home
+        run: sudo chown -R $(whoami) /github/home
       - uses: actions/checkout@v4
       - uses: sphinx-toolbox/sphinx-action@master
         with:
