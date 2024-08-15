@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ````
 
 ### Build the docs locally
-From the docs folder, invoke:
+From the top folder, invoke:
 ````bash
 make html
 ````
@@ -30,13 +30,14 @@ To read the docs in their final form, you can launch a local server to host them
 
 To view the docs locally, from the top folder run:
 ````bash
-sphinx-autobuild docs/source build/html
+sphinx-autobuild source build/html
 ````
 
 ### Deploying the docs online
 Github Actions have been setup such that pushes to the main branch will trigger the website to regenerate online.
 
 
-### Conventions
+
+## Conventions
 
 * for locally-hosted images, keep them small by using *.AVIF format ([AVIF converter](https://convertio.co/avif-converter/)).
