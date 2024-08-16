@@ -28,13 +28,14 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
       - name: Build HTML
-        uses: ammaraskar/sphinx-action@master
-        with:
-          docs-folder: "docs/"
-          build-command: "make html"
+        run: sphinx-build -b docs docs/build/html
+        #uses: ammaraskar/sphinx-action@master
+        #with:
+        #  docs-folder: "docs/"
+        #  build-command: "make html"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/html
+          publish_dir: docs/build/html

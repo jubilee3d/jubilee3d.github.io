@@ -29,7 +29,7 @@ The generated html files in the *build* folder can be opened as-is, but any embe
 
 To read the docs in their final form, from the top folder, run:
 ````bash
-sphinx-autobuild docs/source build/html
+sphinx-autobuild docs/source docs/build/html
 ````
 
 This will make the docs continuously every time you save changes to the source files *and* launch a local server to host them at [](http://127.0.0.1:8000/).
