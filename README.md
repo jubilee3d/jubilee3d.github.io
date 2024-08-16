@@ -23,19 +23,19 @@ make html
 
 This will create another folder called *build* where the generated html files will exist.
 
-### Read the docs locally
+### Auto-build and host the docs locally
 
-The generated html files in the *build* folder can be opened as-is, but javascript commands will not be executed.
-To read the docs in their final form, you can launch a local server to host them.
+The generated html files in the *build* folder can be opened as-is, but any embedded Javascript will not be executed.
 
-To view the docs locally, from the top folder run:
+To read the docs in their final form, from the top folder, run:
 ````bash
-sphinx-autobuild docs build/html
+sphinx-autobuild docs/source build/html
 ````
+
+This will make the docs continuously every time you save changes to the source files *and* launch a local server to host them at [](http://127.0.0.1:8000/).
 
 ### Deploying the docs online
 Github Actions have been setup such that pushes to the main branch will trigger the website to regenerate online.
-
 
 
 ## Conventions
