@@ -4,7 +4,7 @@
      aria-label="{{ _('Section Navigation') }}">
 <!--  <p class="bd-links__title" role="heading" aria-level="1">{{ _("Section Navigation") }}</p>-->
   <div class="bd-toc-item navbar-nav">
-  {% if pagename.startswith("machines/jubilee_3") %}
+  {% if pagename.startswith("machines/jubilee_") %}
       {{- generate_toctree_html(
         "sidebar",
         startdepth=2,
