@@ -11,7 +11,7 @@ jobs:
       - name: Build HTML
         uses: ammaraskar/sphinx-action@master
         with:
-          pre-build-command: "sudo -H pip install -r requirements.txt"
+          pre-build-command: "pip install -r requirements.txt"
           docs-folder: "docs/"
           build-command: "make html"
       - name: Deploy
