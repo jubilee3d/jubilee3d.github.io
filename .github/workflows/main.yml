@@ -8,7 +8,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: sphinx-toolbox/sphinx-action@master
+      - uses: ammaraskar/sphinx-action@master
         with:
           pre-build-command: "pip install -r requirements.txt"
           docs-folder: "docs/"
