@@ -15,7 +15,7 @@ Jubilee 2
    :maxdepth: 3
    :caption: Machine Assembly
 
-   frame_assembly
+   hardware_assembly
 
 .. toctree::
    :hidden:
