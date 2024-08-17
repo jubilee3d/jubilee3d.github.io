@@ -1,23 +1,26 @@
-Frame Assembly
-==============
+Hardware Assembly
+=================
 
 .. toctree::
    :hidden:
    :maxdepth: 2
 
    instructions/outer_frame
+..
    instructions/aluminum_motor_plates
    instructions/double_pulley_corner_brackets
    instructions/aluminum_crossbar
    instructions/toolchanger_lock
    instructions/toolchanger_carriage
-   instructions/magnetic_build_plate
    instructions/duet2_electronics_panel
    instructions/lower_frame
    instructions/corexy_frame
 
-Building the Frame
+..
+   instructions/magnetic_build_plate
 
+Frame
+-----
 .. grid:: 3
 
     .. grid-item-card:: Outer Frame
@@ -56,12 +59,6 @@ Building the Frame
        :link-type: any
        :img-top: instructions/pics/toolchanger_carriage.avif
 
-    .. grid-item-card:: Magnetic Build Plate
-       :padding: 1
-       :link: instructions/magnetic_build_plate.avif
-       :link-type: any
-       :img-top: instructions/pics/magnetic_build_plate.png
-
     .. grid-item-card:: Duet2 Electronics Panel
        :padding: 1
        :link: instructions/duet2_electronics_panel
@@ -85,3 +82,37 @@ Building the Frame
        :link: instructions/z_axis
        :link-type: any
        :img-top: instructions/pics/z_axis.avif
+
+
+
+Bed Options
+-----------
+Pick one bed option.
+Note that more bed options exist in the :doc:`beds </beds/beds>` section.
+
+.. grid:: 3
+
+    .. grid-item-card:: Magnetic Build Plate
+       :padding: 1
+       :link: instructions/magnetic_build_plate
+       :link-type: any
+       :img-top: instructions/pics/magnetic_build_plate.png
+
+    .. grid-item-card:: Lab Automation 6x Well Plate
+       :padding: 1
+       :link: instructions/magnetic_build_plate.avif
+       :link-type: any
+       :img-top: instructions/pics/magnetic_build_plate.png
+
+
+Electronics
+-----------
+
+TODO
+
+
+Tools
+-----
+
+
+TODO

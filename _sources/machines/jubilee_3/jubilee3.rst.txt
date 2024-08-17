@@ -15,7 +15,7 @@ Jubilee 3
    :maxdepth: 3
    :caption: Machine Assembly
 
-   Frame Assembly <frame_assembly>
+   hardware_assembly
    rpi_imaging
    Network Setup <connection_setup>
    klipper_installation
