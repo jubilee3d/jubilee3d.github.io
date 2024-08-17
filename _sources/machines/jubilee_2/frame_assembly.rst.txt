@@ -58,7 +58,7 @@ Building the Frame
 
     .. grid-item-card:: Magnetic Build Plate
        :padding: 1
-       :link: instructions/magnetic_build_plate
+       :link: instructions/magnetic_build_plate.avif
        :link-type: any
        :img-top: instructions/pics/magnetic_build_plate.png
 
