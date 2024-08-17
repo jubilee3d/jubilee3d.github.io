@@ -59,17 +59,35 @@ Frame
        :link-type: any
        :img-top: instructions/pics/toolchanger_carriage.avif
 
-    .. grid-item-card:: Duet2 Electronics Panel
-       :padding: 1
-       :link: instructions/duet2_electronics_panel
-       :link-type: any
-       :img-top: instructions/pics/duet2_electronics_panel.avif
-
     .. grid-item-card:: Lower Frame
        :padding: 1
        :link: instructions/lower_frame
        :link-type: any
        :img-top: instructions/pics/lower_frame.avif
+
+    .. grid-item-card:: Z Axis
+       :padding: 1
+       :link: instructions/z_axis
+       :link-type: any
+       :img-top: instructions/pics/z_axis.avif
+
+Pick the back panel assembly step that matches your setup.
+
+.. grid:: 3
+
+    .. grid-item-card:: Leviathan Back Panel
+       :padding: 1
+       :link: instructions/duet2_electronics_panel
+       :link-type: any
+       :img-top: instructions/pics/leviathan_electronics_panel.avif
+
+    .. grid-item-card:: BigTreeTech Back Panel
+       :padding: 1
+       :link: instructions/btt_electronics_panel
+       :link-type: any
+       :img-top: instructions/pics/btt_electronics_panel.avif
+
+.. grid:: 3
 
     .. grid-item-card:: CoreXY Frame
        :padding: 1
@@ -77,11 +95,6 @@ Frame
        :link-type: any
        :img-top: instructions/pics/corexy_frame.avif
 
-    .. grid-item-card:: Z Axis
-       :padding: 1
-       :link: instructions/z_axis
-       :link-type: any
-       :img-top: instructions/pics/z_axis.avif
 
 
 
@@ -108,11 +121,23 @@ Note that more bed options exist in the :doc:`beds </beds/beds>` section.
 Electronics
 -----------
 
-TODO
+.. grid:: 3
+
+    .. grid-item-card:: Back Panel Wiring
+       :padding: 1
+       :link: instructions/outer_frame
+       :link-type: any
+       :img-top: instructions/pics/outer_frame.avif
+
+    .. grid-item-card:: Tool XY Alignment Camera
+       :padding: 1
+       :link: instructions/outer_frame
+       :link-type: any
+       :img-top: instructions/pics/outer_frame.avif
 
 
 Tools
 -----
 
-
-TODO
+Select the tools that match your setup.
+Note that more tool options exist in the :doc:`tools </tools/tools>` section.
