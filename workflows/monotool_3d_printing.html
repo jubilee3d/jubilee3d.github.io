@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>XYZ Probe &#8212; Jubilee 3.0.0 documentation</title>
+    <title>Single-Tool 3D Printing &#8212; Jubilee 3.0.0 documentation</title>
   
   
   
@@ -41,11 +41,9 @@
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'tools/xyz_probe';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workflows/monotool_3d_printing';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Sonicator" href="sonicator.html" />
-    <link rel="prev" title="RPi HQ Camera" href="rpi_camera.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -142,8 +140,8 @@
 </li>
 
 
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="tools.html">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../tools/tools.html">
     Tools
   </a>
 </li>
@@ -157,7 +155,7 @@
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../workflows/workflows.html">
+  <a class="nav-link nav-internal" href="workflows.html">
     Workflows
   </a>
 </li>
@@ -256,7 +254,9 @@ document.write(`
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
 
   
@@ -278,8 +278,8 @@ document.write(`
 </li>
 
 
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="tools.html">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../tools/tools.html">
     Tools
   </a>
 </li>
@@ -293,7 +293,7 @@ document.write(`
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../workflows/workflows.html">
+  <a class="nav-link nav-internal" href="workflows.html">
     Workflows
   </a>
 </li>
@@ -345,33 +345,6 @@ document.write(`
     
   </div>
   
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item">
-
-<nav class="bd-docs-nav bd-links"
-     aria-label="Section Navigation">
-<!--  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>-->
-  <div class="bd-toc-item navbar-nav">
-  <ul class="list-caption"><li class="toctree-l0 has-children"><details><summary><p aria-level="2" class="caption" role="heading"><span class="caption-text">Design Your Own Tool</span></p><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="design_your_own_tool.html">Tool Design Guidelines</a></li>
-<li class="toctree-l1"><a class="reference internal" href="parking_post.html">Parking Post</a></li>
-</ul></details></li><li class="toctree-l0 has-children"><details><summary><p aria-level="2" class="caption" role="heading"><span class="caption-text">3D Printing</span></p><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="baby_bullet.html">Baby Bullet</a></li>
-</ul></details></li><li class="toctree-l0 has-children"><details><summary><p aria-level="2" class="caption" role="heading"><span class="caption-text">Plotting and Engraving</span></p><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="flyline_pen.html">Flyline Pen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="passive_pen.html">Passive Pen</a></li>
-</ul></details></li><li class="toctree-l0 has-children"><details open><summary><p aria-level="2" class="caption" role="heading"><span class="caption-text">Inspection and Imaging</span></p><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="rpi_camera.html">RPi HQ Camera</a></li>
-
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">XYZ Probe</a></li>
-</ul></details></li><li class="toctree-l0 has-children"><details><summary><p aria-level="2" class="caption" role="heading"><span class="caption-text">Lab automation</span></p><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="sonicator.html">Sonicator</a></li>
-<li class="toctree-l1"><a class="reference internal" href="syringe_tool.html">Syringe Tool</a></li>
-</ul></details></li></ul>
-  </div>
-</nav></div>
-    </div>
-  
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
   </div>
@@ -404,10 +377,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    
-    <li class="breadcrumb-item"><a href="tools.html" class="nav-link">Tools</a></li>
-    
-    <li class="breadcrumb-item active" aria-current="page">XYZ Probe</li>
+    <li class="breadcrumb-item active" aria-current="page">Single-Tool...</li>
   </ul>
 </nav>
 </div>
@@ -424,22 +394,15 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="xyz-probe">
-<h1>XYZ Probe<a class="headerlink" href="#xyz-probe" title="Link to this heading">#</a></h1>
-<p>The XYZ probe is a probing tool for dimension inspection.</p>
-<section id="specs">
-<h2>Specs<a class="headerlink" href="#specs" title="Link to this heading">#</a></h2>
+  <section id="single-tool-3d-printing">
+<h1>Single-Tool 3D Printing<a class="headerlink" href="#single-tool-3d-printing" title="Link to this heading">#</a></h1>
+<p>3D printing like it’s 2008.</p>
+<section id="prerequisites">
+<h2>Prerequisites:<a class="headerlink" href="#prerequisites" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>specs</p></li>
-<li><p>here</p></li>
-</ul>
-</section>
-<section id="references">
-<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>source files</p></li>
-<li><p>references</p></li>
-<li><p>here</p></li>
+<li><p>Jubilee “mono” hardware configuration. See the build guide for more details.</p></li>
+<li><p>Jubilee “mono” firmware configuration.</p></li>
+<li><p>Calibrated z-offset between the nozzle tip and z probe.</p></li>
 </ul>
 </section>
 </section>
@@ -494,7 +457,7 @@ document.write(`
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/jubilee3d/jubilee3d.github.io/edit/develop/docs/tools/xyz_probe.rst">
+    <a href="https://github.com/jubilee3d/jubilee3d.github.io/edit/develop/docs/workflows/monotool_3d_printing.rst">
       <i class="fa-solid fa-pencil"></i>
       
       

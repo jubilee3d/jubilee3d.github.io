@@ -96,12 +96,11 @@ Pick the back panel assembly step that matches your setup.
        :img-top: instructions/pics/corexy_frame.avif
 
 
-
-
 Bed Options
 -----------
-Pick one bed option.
-Note that more bed options exist in the :doc:`beds </beds/beds>` section.
+Pick one bed option that matches your intended :doc:`workflow </workflows/workflows>`.
+Here are two of the most common beds.
+Note that more options exist in the :doc:`beds </beds/beds>` section.
 
 .. grid:: 3
 
@@ -139,5 +138,6 @@ Electronics
 Tools
 -----
 
-Select the tools that match your setup.
+Select and build the tools that match your intended :doc:`workflow </workflows/workflows>`.
+Here are two of the most common tools.
 Note that more tool options exist in the :doc:`tools </tools/tools>` section.

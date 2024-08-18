@@ -34,16 +34,14 @@ V3 collects years worth of notes from V2 and Discord to produce a machine that's
 lighter, stiffer, and faster than the original--all while preserving what makes Jubilee "Jubilee."
 
 
-Acquire Parts
-=============
+Building Jubilee
+================
 
-* Build from a :doc:`kit </kits>`
-* Build from scratch, aka from the raw Bill-of-Materials
+To build the Jubilee, you will need to
 
-Assembly Instructions
-=====================
-..
-  * Step-by-Step :doc:`assembly <>`
+1. Acquire parts from a :doc:`kit </kits>` or by ordering parts individually from the :doc:`Bill-of-Materials </machines/jubilee_3/bom>`.
+2. Follow the :doc:`hardware assembly </machines/jubilee_3/hardware_assembly>` instruction booklets to build the frame.
+3. Follow the remaining guides on the left sidebar to configure the Jubilee's software, firmware, and electronics.
 
 
 References
