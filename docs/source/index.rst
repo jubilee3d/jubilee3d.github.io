@@ -33,17 +33,17 @@ Jubilee is an open source, extensible, tool-changing cnc machine for exploring m
    </model-viewer>
    -->
 
-With the existing family of tools, Jubilee can be used for
+Combined with an ecosystem of tools and bed plates, Jubilee can be tailored to a variety of applications, including:
 
 * multi-material 3D printing
 * automated inspection
 * lab automation
 
+Getting Started
+---------------
 
-But Jubilee is a reference design.
-It can serve as a starting point for your own custom tool-changer design or as and end-point in itself.
-To get started, have a glance at the :doc:`latest machine </machines/jubilee_3/jubilee3>` specs.
-
+There are *many* paths to using Jubilee.
+We suggest starting by (1) picking a :doc:`workflow </workflows/workflows>` and (2) building the components you need to execute that workflow.
 
 ..
   Jubilee might be a family of machines one day!

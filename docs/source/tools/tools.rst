@@ -1,7 +1,9 @@
 Tools
 =====
 
-Jubilee has tools!
+Multiple tools can be loaded into Jubilee to execute a workflow that involves switching between tools, but only one tool can be used at a time.
+
+The parking region for idle tools has 409[mm] of width (x), which can accommodate about 4 tools.
 
 
 .. toctree::
@@ -36,13 +38,12 @@ Jubilee has tools!
        :padding: 1
        :link: baby_bullet
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
+..
     .. grid-item-card:: Edthesped tool
        :padding: 1
        :link: /index
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
 
 Inspection
@@ -58,17 +59,15 @@ Inspection
 
 .. grid:: 3
 
-    .. grid-item-card:: Inspection Tool
+    .. grid-item-card:: Bed Inspection Camera
        :padding: 1
-       :link: inspection_tool
+       :link: rpi_camera
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/thumb/3/36/Mounted_camera_inspection_tool.jpg/800px-Mounted_camera_inspection_tool.jpg
 
     .. grid-item-card:: XYZ Probe
        :padding: 1
-       :link: /index
+       :link: xyz_probe
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
 Lab Automation
 --------------
@@ -78,6 +77,17 @@ Lab Automation
    :hidden:
    :caption: Lab automation
 
-   syringe_tool
    sonicator
+   syringe_tool
 
+.. grid:: 3
+
+    .. grid-item-card:: 10cc Syringe
+       :padding: 1
+       :link: syringe_tool
+       :link-type: any
+
+    .. grid-item-card:: Sonicator
+       :padding: 1
+       :link: sonicator
+       :link-type: any

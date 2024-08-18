@@ -1,36 +1,37 @@
 Workflows
-=========
+#########
 
-Jubilee's can be reconfigured to support various *workflows*.
-A *workflow* involves one or more specific tools, bed plates, and software to enable Jubilee to perform a specific application.
-
-
+By choosing a specific bed and tools,
+Jubilee's can be reconfigured to support one of various *workflows*.
+A *workflow* involves one or more specific tools, bed plates, and software to enable Jubilee to perform a specific automation task.
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: 3D Printing
 
-   Mono-Tool 3D printing <mono_3d_printing>
-..
    Multi-Tool 3D printing <multitool_3d_printing>
+..
+   monotool_3d_printing
 
 3D Printing
------------
+===========
 
 .. grid:: 3
 
-    .. grid-item-card:: Mono-Tool 3D Printing
+    .. grid-item-card:: Multi-Tool 3D Printing
+       :padding: 1
+       :link: multitool_3d_printing
+       :link-type: any
+       :img-bottom: /_static/pics/two_color_benchy.avif
+
+..
+    .. grid-item-card:: 3D Printing
        :padding: 1
        :link: mono_3d_printing
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
+       :img-bottom: /_static/pics/two_color_benchy.avif
 
-    .. grid-item-card:: Multi-Tool 3D Printing
-       :padding: 1
-       :link: /index
-       :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
 .. toctree::
    :maxdepth: 2
@@ -42,7 +43,7 @@ A *workflow* involves one or more specific tools, bed plates, and software to en
 
 
 Plotting and Engraving
-----------------------
+======================
 
 .. grid:: 3
 
@@ -50,10 +51,24 @@ Plotting and Engraving
        :padding: 1
        :link: /index
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
 
     .. grid-item-card:: Laser Engraving
        :padding: 1
        :link: /index
        :link-type: any
-       :img-bottom: https://jubilee3d.com/images/6/6e/Baby_bullet.png
+
+
+Lab Automation
+==============
+
+.. grid:: 3
+
+    .. grid-item-card:: Automated Sonication
+       :padding: 1
+       :link: /index
+       :link-type: any
+
+    .. grid-item-card:: Single Channel Pipetting
+       :padding: 1
+       :link: /index
+       :link-type: any
