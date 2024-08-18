@@ -10,7 +10,7 @@
 project = 'Jubilee'
 copyright = "2024, Sonya Vasquez"
 author = "Sonya Vasquez"
-release = "3.0.0"
+#release = "3.0.0" # appears in navbar-logo if specified.
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -34,6 +34,7 @@ html_css_files = ['css/custom.css']
 
 
 html_theme_options = {
+    "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "header_links_before_dropdown": 6,
     "show_prev_next": False,
