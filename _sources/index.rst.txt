@@ -45,6 +45,20 @@ Getting Started
 There are *many* paths to using Jubilee.
 We suggest starting by (1) picking a :doc:`workflow </workflows/workflows>` and (2) building the components you need to execute that workflow.
 
+
 ..
-  Jubilee might be a family of machines one day!
+    New the Jubilee project? Read on!
+
+    What is Jubilee?
+    ----------------
+
+    Jubilee is an ecosystem of open source hardware designs for various applications.
+    The idea is that you, the scientist, hacker, engineer, or student are interested in exploring some sort of programmable machine application, but you don't want to start from scratch.
+
+
+    How to use this site
+    --------------------
+    This site is broken down into both distinct *hardware designs* for machines, tools, and bed plates and then *workflows* that ask you to build components from those sections to explore a custom programmable task.
+    Each type of 
+
 
