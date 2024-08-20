@@ -29,11 +29,11 @@ Frame
        :link-type: any
        :img-top: instructions/pics/outer_frame.avif
 
-    .. grid-item-card:: Aluminum Motor Plates
+    .. grid-item-card:: Motor Plates
        :padding: 1
        :link: instructions/aluminum_motor_plates
        :link-type: any
-       :img-top: instructions/pics/aluminum_motor_plates.avif
+       :img-top: instructions/pics/motor_plates.avif
 
     .. grid-item-card:: Double-Pulley Corner Brackets
        :padding: 1
@@ -53,11 +53,11 @@ Frame
        :link-type: any
        :img-top: instructions/pics/toolchanger_lock.avif
 
-    .. grid-item-card:: Toolchanger Carriage
+    .. grid-item-card:: Toolchanger MGN9 Carriage
        :padding: 1
        :link: instructions/toolchanger_carriage
        :link-type: any
-       :img-top: instructions/pics/toolchanger_carriage.avif
+       :img-top: instructions/pics/mgn9_carriage.avif
 
     .. grid-item-card:: Lower Frame
        :padding: 1
