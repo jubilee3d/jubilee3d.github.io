@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ````
 
 ### Build the docs locally
-From the top folder, invoke:
+From the *docs* folder, invoke:
 ````bash
 make html
 ````
@@ -38,21 +38,4 @@ This will make the docs continuously every time you save changes to the source f
 Github Actions have been setup such that pushes to the main branch will trigger the website to regenerate online.
 
 
-## Conventions
 
-### Images
-For locally-hosted images, keep them small by using \*.AVIF format ([AVIF converter](https://convertio.co/avif-converter/)).
-
-On Linux, you can re-encode an image with:
-````bash
-avifenc <input_image_name>.<extension> <output_image_name>.avif
-````
-On Windows, modern Gimp (2.10.38) supports avif file export.
-
-Prefer removing background where possible.
-
-Prefer a dark-and-light mode compatible image.
-If removing the background from an image is not sufficient to make it usable on both modes, consider uploading separate dark and light-mode specific images.
-
-### Colors
-Use an accessible color palette. Check against [Viz-Palette](https://projects.susielu.com/viz-palette)

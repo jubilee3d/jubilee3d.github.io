@@ -9,7 +9,7 @@ Hardware Assembly
 ..
    instructions/aluminum_motor_plates
    instructions/double_pulley_corner_brackets
-   instructions/aluminum_crossbar
+   instructions/crossbar
    instructions/toolchanger_lock
    instructions/toolchanger_carriage
    instructions/duet2_electronics_panel
@@ -41,11 +41,11 @@ Frame
        :link-type: any
        :img-top: instructions/pics/double_pulley_corner_brackets.avif
 
-    .. grid-item-card:: Aluminum Crossbar
+    .. grid-item-card:: Carbon Fiber Crossbar
        :padding: 1
-       :link: instructions/aluminum_crossbar
+       :link: instructions/crossbar
        :link-type: any
-       :img-top: instructions/pics/aluminum_crossbar.avif
+       :img-top: instructions/pics/crossbar.png
 
     .. grid-item-card:: Toochanger Lock
        :padding: 1
